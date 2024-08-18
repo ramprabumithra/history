@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  #header {
+    width: 100%;
+    height: 20%;
+    background: #2F4F4F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-family: 'Courier New', monospace;
+    font-size: 70px;
+    color: #D2B48C;
+  }
+
+  #menu {
+    width: 100%;
+    background: #3C3C3C;
+    padding: 20px;
+  }
+
+  #menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  #menu ul li {
+    margin: 0 20px;
+  }
+
+  #menu ul li a {
+    color: #D2B48C;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #menu ul li a:hover {
+    color: #F0E68C;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #content-left {
+    width: 75%;
+    background: #4F4F4F;
+    color: white;
+    padding: 20px;
+  }
+
+  #content-right {
+    width: 20%;
+    background: #3B3B3B;
+    color: white;
+    padding: 20px;
+  }
+
+  #content-right ul li a {
+    color: #D2B48C;
+    text-decoration: none;
+  }
+
+  #content-right ul li a:hover {
+    color: #F0E68C;
+  }
+
+  #bottom {
+    width: 100%;
+    background: #2F4F4F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  iframe {
+    border: none;
+    width: 100%;
+    height: 300px;
+  }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1><b>H I S T O R Y</b></h1>
+</div>
+
+<div id="menu">
+  <ul>
+    <li><a href="maps.html">Maps</a></li>
+    <li><a href="science_and_civilisation.html">Civilisation And Science</a></li>
+    <li><a href="rulers_and_religion.html">Rulers And Religion</a></li>
+  </ul>
+</div>
+
+<div id="content">
+  <div id="content-left">
+    <iframe src="https://www.britannica.com/on-this-day"></iframe>
+  </div>
+  <div id="content-right">
+    <h2>Recommended Books</h2>
+    <ul>
+      <li><a href="https://www.amazon.in/Claudius-Popular-Penguins-Robert-Graves/dp/0143566393/ref=sr_1_2?keywords=i+claudius&qid=1636782814&sr=8-2">I, Claudius - Robert Graves</a></li>
+      <li><a href="https://www.amazon.in/Cleopatras-Daughter-Michelle-Moran/dp/1849160791/ref=sr_1_1?keywords=michelle+moran&qid=1636782707&sr=8-1">Cleopatra's Daughter - Michelle Moran</a></li>
+      <li><a href="https://www.amazon.in/Iliad-Odyssey-Homer/dp/9388144295/ref=sr_1_1_sspa?keywords=the+iliad&qid=1636782780&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVh">The Iliad and the Odyssey - Homer</a></li>
+      <li><a href="https://www.amazon.in/History-Collection-Amar-Chitra-Katha/dp/8184822421/ref=sr_1_1?crid=2J4R5NEPYCM1M&keywords=history+collection+amar+chitra+katha&qid=1636782847&sprefix=history+collection+a%2Caps%2C257&sr=8-1">The History Collection - Amar Chitra Katha</a></li>
+      <li><a href="https://www.amazon.in/Circe-International-Bestseller-Shortlisted-Fiction/dp/1526614677/ref=sr_1_1?keywords=circe&qid=1636782890&sr=8-1">Circe - Madeline Miller</a></li>
+      <li><a href="https://www.amazon.in/Librarian-Auschwitz-Antonio-Iturbe/dp/1432849298/ref=sr_1_2?keywords=antonio+iturbe&qid=1636782915&sr=8-2">The Librarian Of Auschwitz - Antonio Iturbe</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="bottom">
+  Copyright 2021 - Credits to Britannica, History.com, Amazon, Wikipedia
+</div>
+
+</body>
+</html>
